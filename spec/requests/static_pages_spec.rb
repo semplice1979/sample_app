@@ -28,7 +28,8 @@ describe "Static pages" do
 
     	it "should have the title 'Help'" do
       		visit '/static_pages/help'
-      		expect(page).to have_title("#{base_title} | Help")
+      		#expect(page).to have_title("#{base_title} | Help")
+			expect(page).to have_title("Ruby on Rails Tutorial Sample App")	
 		end
 
 	end
@@ -41,7 +42,7 @@ describe "Static pages" do
 
     	it "should have the title 'About Us'" do
       		visit '/static_pages/about'
-      		expect(page).to have_title("#{base_title} | About Us")
+      		expect(page).to have_title("Ruby on Rails Tutorial Sample App")	
 		end
 	end
 
@@ -52,7 +53,7 @@ describe "Static pages" do
 		end
     	it "should have the title 'Contact'" do
       		visit '/static_pages/contact'
-      		expect(page).to have_title("#{base_title} | Contact")
+      		expect(page).to have_title("Ruby on Rails Tutorial Sample App")	
 		end 	
 	end	
 
