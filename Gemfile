@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.1.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
@@ -10,7 +11,7 @@ group :development, :test do
 end
 
 group :test do
-	gem 'selenium-webdriver', '2.0.0'
+	gem 'selenium-webdriver', '2.42.0'
 	gem 'capybara', '2.1.0'
 end
 
